@@ -425,10 +425,13 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 img,
 video {
   max-width: 100%;
-  height: 90%;
+  height: 85%;
+  padding: 0 25px;
 }
 
+
 .ImageContainer{
+  padding: 0 15px;
   display: flex;
   justify-content: end;
 }
@@ -470,6 +473,11 @@ video {
 .SKU{
   font-size: 15px;
   font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.button{
+  color: white;
 }
 
 

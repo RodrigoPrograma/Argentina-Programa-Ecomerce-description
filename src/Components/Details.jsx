@@ -1,4 +1,5 @@
 import React from "react";
+import { BuyButton } from "./BuyButton";
 
 export const Details = () => {
   return (
@@ -19,6 +20,8 @@ export const Details = () => {
       <p className="SKU"> SKU: #336481B</p>
       </div>
     
+    <BuyButton />
+
     </div>
 
 
