@@ -6,7 +6,7 @@ export const BuyButton = () => {
   const [initialState, setStatePara] = useState(false);
 
   const Mostrar = () => {
-    setStatePara(true);
+    setStatePara(!initialState);
   }
 
   

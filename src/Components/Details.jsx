@@ -20,7 +20,7 @@ export const Details = () => {
       <p className="SKU"> SKU: #336481B</p>
       </div>
     
-    <BuyButton />
+   
 
     </div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import { Imagen } from "./ImageComponent";
 import { Details } from "./Details";
 import "../Styles/Main.css"
+import { BuyButton } from "./BuyButton";
 
 export const Main = () => {
   return(
@@ -13,6 +14,7 @@ export const Main = () => {
       <Imagen />
       <Details />
     </div>
+    <BuyButton />
     </div>
     
     
